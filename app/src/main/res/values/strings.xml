@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Storeapp</string>
+
+    <string-array name="Branch">
+        <item>CSE</item>
+        <item>CCE</item>
+        <item>ECE</item>
+        <item>MECH</item>
+
+    </string-array>
+</resources>

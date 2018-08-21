@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background = "#ffffff"
+    tools:context = ".MainActivity"
+
+    >
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/switzerland_alps_mountains_night_beautiful_landscape_99817_720x1280"
+        android:scaleType="centerCrop"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+      android:layout_below="@id/welcome_tv"
+
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="1dp"
+        android:text="@string/hello_world"
+        android:textColor="#000"
+        android:textColorHighlight="#ffffff"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:id="@+id/hellowolrd_tv"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/hellowolrd_tv"
+        android:textColor="#000"
+        android:text="This is Panna"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:layout_width="wrap_content"
+
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:id = "@+id/welcome_tv"
+        android:layout_centerInParent="true"
+        android:textColor="#000"
+        android:text="Welcome"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+</RelativeLayout>
